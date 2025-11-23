@@ -42,9 +42,9 @@ http://localhost:8000
 
 Приложение будет доступно на порту 8002 вместо 8000. Все сервисы настроены и должны работать корректно.
 Доступные порты:
-Backend API: http://localhost:8002
-Prometheus: http://localhost:9090
-Grafana: http://localhost:3000
-Loki: http://localhost:3100
-Jaeger: http://localhost:16686
-PostgreSQL: localhost:5433
+- Backend API: http://localhost:8002
+- Prometheus: http://localhost:9090
+- Grafana: http://localhost:3000
+- Loki: http://localhost:3100
+- Jaeger: http://localhost:16686
+- PostgreSQL: localhost:5433
