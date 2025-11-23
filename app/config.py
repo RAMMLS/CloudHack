@@ -1,12 +1,13 @@
 import os
 from typing import Optional
-from pydantic import BaseSettings, Field
+from pydantic_settings import BaseSettings
+from pydantic import Field
 
 
 class Settings(BaseSettings):
     # Server Configuration
     server_host: str = Field(default="0.0.0.0", env="SERVER_HOST")
-    server_port: int = Field(default=8000, env="SERVER_PORT")
+    server_port: int = Field(default=8002, env="SERVER_PORT")
     debug: bool = Field(default=False, env="DEBUG")
     log_level: str = Field(default="INFO", env="LOG_LEVEL")
     

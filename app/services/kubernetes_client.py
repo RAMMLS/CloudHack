@@ -161,7 +161,7 @@ class KubernetesClient:
                     "namespace": service.metadata.namespace,
                     "type": service.spec.type,
                     "cluster_ip": service.spec.cluster_ip,
-                    "external_ip": service.spec.external_i_ps or None,
+                    "external_ip": service.spec.external_ips[0] if service.spec.external_ips else None,
                     "ports": ports,
                     "age": str(service.metadata.creation_timestamp),
                     "selector": service.spec.selector or {}

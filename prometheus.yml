@@ -84,4 +84,4 @@ scrape_configs:
 
   - job_name: 'sre-agent'
     static_configs:
-      - targets: ['sre-agent-backend:8000']
+      - targets: ['sre-agent-backend:8002']
