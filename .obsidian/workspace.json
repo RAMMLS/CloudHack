@@ -81,14 +81,10 @@
             "id": "81bf8e37b4f0e506",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "case1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "case1"
+              "title": "New tab"
             }
           }
         ],
