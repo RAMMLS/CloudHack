@@ -81,10 +81,14 @@
             "id": "81bf8e37b4f0e506",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ],
@@ -252,6 +256,10 @@
   },
   "active": "81bf8e37b4f0e506",
   "lastOpenFiles": [
+    "Tasks/Robert.md",
+    "README.md",
+    "Tasks/Razil.md",
+    "Tasks/Vlad.md",
     "app/services/health_check.py",
     "app/services/metrics_collector.py~",
     "app/services/metrics_collector.py",
@@ -262,13 +270,8 @@
     "app/services/kubernetes_client.py",
     "app/core/middleware.py",
     "app/core/database.py",
-    "app/models/incident_models.py",
-    "Tasks/Vlad.md",
-    "Tasks/Robert.md",
     "Tasks/Kamil.md",
-    "Tasks/Razil.md",
     "case1.md",
-    "README.md",
     "case2.md"
   ]
 }

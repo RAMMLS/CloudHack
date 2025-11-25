@@ -48,3 +48,7 @@ http://localhost:8000
 - Loki: http://localhost:3100
 - Jaeger: http://localhost:16686
 - PostgreSQL: localhost:5433
+
+LLM - которая будет получать .json метрики будто можно поставить туда простейшую Ollama Mistral.
+
+Сервис на Cloud.ru буду поднимать 5-го числа 
